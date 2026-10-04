@@ -13,4 +13,4 @@ After GitHub Pages finishes deploying:
 
 Use the privacy URL in the Google Play Console and in the game. Verify that both pages open publicly before submitting a release.
 
-The policy describes the current Unity project: local game saves, Google Mobile Ads test interstitials, and Google's consent flow. Review it whenever ads change from test to live mode or any SDK, online feature, or data practice changes.
+The policy describes the current Unity project: local game saves, Google Mobile Ads halftime interstitials, and Google's consent flow. Review it whenever an SDK, online feature, or data practice changes.
