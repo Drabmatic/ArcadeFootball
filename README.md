@@ -1,9 +1,16 @@
 # Arcade Football website
 
-Static landing page and privacy-policy draft for GitHub Pages.
+Static landing page and privacy policy for Arcade Football by Drab Studios.
 
-## Publish
+## Publish with GitHub Pages
 
-In GitHub, open **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/(root)**, then save. The landing page will be at `https://drabmatic.github.io/ArcadeFootball/`; the privacy policy will be at `https://drabmatic.github.io/ArcadeFootball/privacy.html`.
+In this repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
 
-Before using the privacy URL in Google Play Console, confirm the app's SDKs, data handling, and contact address, then remove the draft notice from `privacy.html`. Also add the same privacy link inside the game, as Google Play requires.
+After GitHub Pages finishes deploying:
+
+- Landing page: https://drabmatic.github.io/ArcadeFootball/
+- Privacy policy: https://drabmatic.github.io/ArcadeFootball/privacy.html
+
+Use the privacy URL in the Google Play Console and in the game. Verify that both pages open publicly before submitting a release.
+
+The policy describes the current Unity project: local game saves, Google Mobile Ads test interstitials, and Google's consent flow. Review it whenever ads change from test to live mode or any SDK, online feature, or data practice changes.
